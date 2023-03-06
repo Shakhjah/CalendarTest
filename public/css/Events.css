@@ -1,0 +1,90 @@
+.Event {
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    background: rgb(119, 117, 117);
+    color: #fff;
+    margin: 2%;
+}
+
+.EventButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    max-width: 50px;
+    max-height: 50px;
+    background: #fe8128;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: #fff;
+    margin-right: 20px;
+    border-style: none;
+}
+
+.EventPlusBut {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 15%; */
+    margin-right: 15%;
+    max-width: 100px;
+    align-items: flex-start;
+}
+
+.BIG {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: .4px;
+    max-width: 200px;
+    /* margin-left: 5%; */
+    margin-right: 10px;
+    margin-bottom: 30%;
+    color: #fff;
+}
+
+.All {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+}
+
+.EvBut {
+    display: flex;
+    flex-direction: row;
+    background: rgb(119, 117, 117);
+    align-items: center;
+    border-radius: 15px;
+    
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.EventText {
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.EventName {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.EventDate {
+    font-size: 12px;
+    line-height: 1.15rem;
+    color: #8e8e93;
+}
+
+.EventOrganizator {
+    color: #8e8e93;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
